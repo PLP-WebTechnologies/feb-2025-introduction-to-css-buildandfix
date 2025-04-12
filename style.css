@@ -1,0 +1,155 @@
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling with different font */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Class selector: Section titles */
+.section-title {
+    color: #2c3e50;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #3498db;
+}
+
+/* Class selector: Roman numeral list */
+.roman-list {
+    margin: 20px 0 30px 40px;
+    padding-left: 10px;
+    color: #34495e;
+    font-size: 1.1em;
+}
+
+/* Class selector: Styled image */
+.styled-image {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    padding: 5px;
+    border: 3px solid #3498db;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* ID selector: Contact table */
+#contact-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff;
+}
+
+#contact-table th,
+#contact-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+#contact-table th {
+    background-color: #3498db;
+    color: #fff;
+    font-weight: bold;
+}
+
+#contact-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#contact-table tr:hover {
+    background-color: #e0f7fa;
+}
+
+/* ID selector: Registration form */
+#registration-form {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#registration-form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #2c3e50;
+    font-weight: 500;
+}
+
+#registration-form input[type="text"],
+#registration-form input[type="email"],
+#registration-form input[type="password"],
+#registration-form input[type="date"],
+#registration-form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+#registration-form input:focus,
+#registration-form select:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+}
+
+/* Class selector: Radio and checkbox groups */
+.radio-group,
+.checkbox-group {
+    margin: 15px 0;
+}
+
+.radio-group label,
+.checkbox-group label {
+    display: inline-block;
+    margin: 0 15px 0 5px;
+    color: #34495e;
+}
+
+/* Class selector: Submit button */
+.submit-btn {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.1em;
+}
+
+.submit-btn:hover {
+    background-color: #2980b9;
+}
+
+/* Element selector: Paragraph for note */
+p.note-text {
+    margin: 20px 0;
+    padding: 10px;
+    color: #7f8c8d;
+    border-left: 4px solid #3498db;
+    background-color: #ecf0f1;
+}
+
+/* Load Roboto font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
